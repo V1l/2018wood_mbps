@@ -1,0 +1,33 @@
+.shopify-buy-frame--product{}
+.flexy{display:flex;align-self::center;justify-content:center;}
+#modal_img{position:relative;}
+.amazon{display:inline;float:right;}
+#product_headlinewrapper h1{font-size:65px;}
+#product_headlinewrapper{left:0;text-align:center;color:#ffffff;height:100%;margin-left:auto;margin-right:auto;}
+#sticker_h{background-image:url(img/woodpeckerbeardco_harvest_beard_oil_packshot.jpg);background-position-x:5px;background-repeat:no-repeat;background-size:cover;}
+#sticker_e{background-image:url(img/woodpeckerbeardco_essential_beard_oil_packshot.jpg);background-position-x:5px;background-repeat:no-repeat;background-size:cover;}
+#sticker_d{background-image:url(img/woodpeckerbeardco_care_duo_two_packshot.jpg);background-position-x:5px;background-repeat:no-repeat;background-size:cover;}
+a{text-decoration:none;}
+#productdescription{max-width:992px;margin-right:auto;margin-left:auto;padding-top:56px;padding-left:30px;padding-right:30px;padding-bottom:30px;}
+h4{font-family:"bouquetuploaded_file", sans-serif;font-size: 35px;text-align:left;}
+#productdescription img{max-height:350px;display:inline;}
+#cta{max-width:992px;margin-right:auto;margin-left:auto;.center-block();}
+.ingredients{margin-left:auto;margin-right:auto;display:block;padding:50px 20px 40px 20px;bottom:0px;margin-bottom:0px;height:100%;}
+#centerblock{display:block;margin-right:auto;margin-left:auto;}
+#cta h2{color:#f49b41;}
+.ingredientscopy{padding-bottom:20px;padding-top:1px;min-height:0;max-width:370px;}
+@media (max-width:768px){#sticker{display:none;}
+#sticker_h{display:none;}
+#sticker_e{display:none;}
+#sticker_d{display:none;}
+.iconhidden{display:none;}
+#centerblock{padding-right:80px;}
+}
+@media (max-width:568px){.ingredients{display:block;margin-right:auto;margin-left:auto;}
+#product_headlinewrapper h1{font-size:40px;}
+#logo{width:200px;}
+#navcontainer{height:0px;}
+h4{font-family:"bouquetuploaded_file", sans-serif;font-size:30px;text-align:left;}
+#cta h2{font-size:30px;}
+#productdescription{max-width:992px;margin-right:auto;margin-left:auto;padding-top:56px;padding-left:30px;padding-right:30px;padding-bottom:0;}
+}
